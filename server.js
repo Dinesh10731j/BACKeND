@@ -5,13 +5,12 @@ const {Signup} = require("./controller/Controller")
 dotEnv.config();
 const morgan = require("morgan");
 const Path = require("path");
-const path = require("path");
 const app = express();
 
 
 app.use(express.json());
 const staticPath = Path.join(__dirname,"./dist.index.html")
-app.use(express.static(staticPath))
+app.use(express.static(staticPath));
 
 app.use(cors());
 app.use(morgan("combined"));

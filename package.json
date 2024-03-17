@@ -3,10 +3,7 @@
   "scripts": {
   
     
-  "start": "node script.js",
-  
-    
-  "dev": "nodemon script.js"
+  "start": "node script.js"
   
   },
   
@@ -47,7 +44,6 @@
   
   "devDependencies": {
   
-    
   "nodemon": "^3.1.0"
   
   }
