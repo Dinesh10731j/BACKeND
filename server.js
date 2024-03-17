@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(express.json());
-const staticPath = Path.join(__dirname,"./dist.index.html")
+const staticPath = Path.join(__dirname,"./dist")
 app.use(express.static(staticPath));
 
 app.use(cors());
