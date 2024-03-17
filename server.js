@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const dotEnv = require("dotenv");
 const { Signup } = require("./controller/Controller");
-const mongoose = require("mongoose");
 const morgan = require("morgan");
 const Path = require("path");
 
