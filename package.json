@@ -43,5 +43,12 @@
     
   "socket.io": "^4.7.4"
   
+  },
+  
+  "devDependencies": {
+  
+    
+  "nodemon": "^3.1.0"
+  
   }
 }
